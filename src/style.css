@@ -1,5 +1,13 @@
 body {
-  background-color: blue;
+  background-color:blue;
+	
+}
+h1{
+	text-align: center;
+	border: solid;
+	background-color: lightgray ;
+	margin: 1.5em;
+	
 }
 
 .maroon-text {
@@ -13,26 +21,53 @@ body {
 }
 [type="checkbox"] {
   margin: 0.5em;
+	float: left;
 }
 .colored-border {
   border-style: solid;
   border-width: 5px;
   border-color: maroon;
 }
-.gold-background {
-  background-color: gold;
-}
+#questions {
+  background-color: beige ;
+	border: dotted;
+	width: 180px;
+	float: left;
+	overflow: scroll;
+	margin: 1.5em;
+	font-size: 25px
+
+	}
+	main{
+	float: right; 
+width:300px
+text-align: left;
+margin-left: auto
+margin-right:auto 
+	}
 p {
   font-size: 14px;
 }
+footer{
+	clear: both;
+}
 
-.text-style {
-  text-align: center;
+.box {
+  text-align: left;
+	margin-left; auto;
+	margin-right: auto;
+	overflow- hidden;
 
 	_________________________________________________________
-	<!-- a class is initiated by the (.) and chosen text
+	<!-- 
+	A class is initiated by the (.) and chosen text
 	curley bracket with a semi colon. 
-	- is it the called by Class="" in the HTML  section cosen  -->
+	- is it the called by Class="" in the HTML  section cosen 
+	
+	attribute= value
+	variable 
+
+	 -->
 
 	<!-- COLORS
 	
