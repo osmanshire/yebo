@@ -1,9 +1,10 @@
 body {
-  background-color: blue;
+  background-image: url(https://www.sciencenewsforstudents.org/sites/default/files/main/articles/iStock_000019745738Medium_0.jpg);
 }
 
 h3 {
   text-align: centre;
+  padding-left: 35%;
 }
 
 .maroon-text {
@@ -43,7 +44,7 @@ h3 {
   font-size: 15px;
 }
 
-#content {
+#myspace {
   width: 500px;
   float: right;
   background-color: silver;
@@ -66,7 +67,14 @@ h3 {
   grid-template-columns: 30% 40% 30%;
   background-color: lightblue;
   margin: 2px;
-  padding: 1em;
+  padding: 10px;
+  border: 10px solid black;
+}
+#grid :nth-child(odd) {
+  background-color: burlywood;
+}
+#grid :nth-child(even) {
+  background-color: rgb(120, 81, 190);
 }
 
 #stuff {
