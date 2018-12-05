@@ -1,0 +1,15 @@
+background: url();
+
+#images {
+}
+
+.image-setting {
+  opacity: ;
+  height: ;
+  width: ;
+}
+
+.images-setting: hover(
+  tranform: scale(1.4) ; opacity: 0; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5),
+  0 6px 10px rgba(0, 0, 0, 0.65) ;
+);
